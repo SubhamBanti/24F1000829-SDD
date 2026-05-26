@@ -19,6 +19,5 @@ Run the Python script directly:
 ## Files
 
 - `notes_app.py` — main application script
-- `run_notes_app.bat` — double-click launcher for Windows
 - `my_notes.txt` — saved note data (created when you run the app)
 
