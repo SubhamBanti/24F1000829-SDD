@@ -1,0 +1,20 @@
+def add_note():
+    note = input("Enter your note: ")
+    with open("my_notes.txt", "a") as file:
+        file.write(note + "\n")
+    print("Note saved!")
+
+def view_notes():
+    try:
+        with open("my_notes.txt", "r") as file:
+            print("\n--- Your Saved Notes ---")
+            print(file.read())
+    except FileNotFoundError:
+        print("No notes found yet.")
+
+# Simple menu loop
+while True:
+    choice = input("\n1. Add Note\n2. View Notes\n3. Exit\nChoose: ")
+    if choice == '1': add_note()
+    elif choice == '2': view_notes()
+    elif choice == '3': break
