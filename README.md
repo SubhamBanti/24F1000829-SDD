@@ -3,6 +3,7 @@
 Spec-Driven Development Workshop Project by 24F1000829
 
 ## Notes App (Vibe Coded)
+This project now includes a simple command-line notes app which is vibe-coded.
 
 ## What is Vibe Coding?
 
